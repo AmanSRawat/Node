@@ -1,0 +1,7 @@
+In the sync we have to first serve the first user first it is like fcfs 
+and thus first user can take more time so there will be the starvation among the users
+
+Whereas in the async if any user user is perdorming writng or reading task 
+simultaneously we can take the task of the users and thus reduces the starvation among the users
+
+sync is blocking, meaning tasks are performed one at a time, while async is non-blocking, meaning tasks can be performed in parallel. 
